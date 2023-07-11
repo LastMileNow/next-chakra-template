@@ -1,0 +1,25 @@
+select,
+option {
+  display: block;
+  border: none;
+  font: inherit;
+  width: 100%;
+  background: transparent;
+  color: var(--independence);
+  font-size: var(--fs-7);
+  padding: 10px 15px;
+  border: 1px solid hsla(244, 17%, 67%, 0.3);
+  border-radius: 4px;
+}
+
+option::placeholder {
+  color: var(--cool-gray);
+}
+
+textarea.option {
+  margin-bottom: 20px;
+  resize: vertical;
+  min-height: 50px;
+  height: 100px;
+  max-height: 200px;
+}
