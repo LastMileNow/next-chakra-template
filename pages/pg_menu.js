@@ -21,6 +21,9 @@ export default function Menu() {
             <BreadcrumbItem>
                 <BreadcrumbLink href='/pg_usecases'>Use Cases</BreadcrumbLink>
             </BreadcrumbItem>
+            <BreadcrumbItem>
+                <BreadcrumbLink href='/pg_databases'>Databases</BreadcrumbLink>
+            </BreadcrumbItem>
         </Breadcrumb>
     </Box>
     )

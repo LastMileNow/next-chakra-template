@@ -17,6 +17,24 @@ const Feature = ({ title, text, icon, url='/' }) => {
     </Stack>
   );
 };
+export function Databases() {
+  return (
+    <Box p={4}>
+  
+      <Text fontSize='3xl' m={55} color={'gray.600'}>Components</Text>
+      <SimpleGrid columns={{ base: 1, md: 3 }} spacing={10}>
+        <Feature icon={<Icon as={FiColumns} w={10} h={10} />}
+          title={'Text Response'}  url='/usecases/text_response'
+          text={'that send a text and display the return text from an API call in the textbox below'}
+        />
+        <Feature icon={<Icon as={BiStats} w={10} h={10} />}
+          title={'Static Pages'} url='static_pridesum.html'
+          text={'that plug in static files (html, css, js) generated from external sites such as https://codesandbox.io'}
+        />
+      </SimpleGrid>
+    </Box>
+  );
+}
 export function UseCases() {
   return (
     <Box p={4}>
