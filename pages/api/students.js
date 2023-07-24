@@ -8,7 +8,7 @@ export default function handler(req, res) {
     console.log(q);
     let k = Object.keys(q)[0];
     console.log(k+" "+q[k]);
-    query("SELECT * from students", req, res);
+    query("SELECT * from students where "+k+"='"+q[k]+"'", req, res);
   }
   
 }
