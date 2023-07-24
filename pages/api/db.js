@@ -6,10 +6,10 @@ const client = new Client(process.env.DATABASE_URL);
   await client.connect();
 })();
 
-export default function handler(req, res) {
+export default function query(sql,req, res) {
   (async () => {
     try {
-      const results = await client.query("SELECT NOW()");
+      const results = await client.query(sql);
       //console.log(results);
       res.status(200).json(results.rows)
     } catch (err) {
