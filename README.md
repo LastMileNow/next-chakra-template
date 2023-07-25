@@ -43,6 +43,7 @@ References:
 - [Vercel official Python Runtime](https://vercel.com/docs/runtimes#official-runtimes/python)
 - [Python BaseHTTPRequestHandler: Respond with JSON](https://stackoverflow.com/questions/41429172/python-basehttprequesthandler-respond-with-json)
 - [How to Deploy a Python Serverless Function to Vercel](https://towardsdatascience.com/how-to-deploy-a-python-serverless-function-to-vercel-f43c8ca393a0)
+- [CockroachDB](https://cockroachlabs.cloud/)
 
 ## Original 'Getting Started' Starts Here
 
