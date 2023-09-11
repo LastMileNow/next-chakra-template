@@ -22,6 +22,7 @@ Follow the instructions below to get started with the project.
 - [MDX](https://nextjs.org/docs/advanced-features/using-mdx) = Markdown + React
 ### More Resources
 - [NextJS Templates](https://vercel.com/templates/next.js)
+- [API Route](https://nextjs.org/docs/pages/building-your-application/routing/api-routes)
 - [Chakra Templates](https://chakra-templates.dev/page-sections/features)
 - [React Icons](https://react-icons.github.io/react-icons/)
 - [Events](https://www.w3schools.com/tags/ref_eventattributes.asp)
